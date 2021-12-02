@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1TwnlwVa2ounLX474forzWYz_xWJDUksx
 """
 
-pip install streamlit
+
 
 import nltk
 from os import write
