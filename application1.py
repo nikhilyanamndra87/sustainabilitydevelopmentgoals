@@ -67,7 +67,7 @@ with body:
     #Taking text input using one of the 3 ways: entering text, using sample text files or uploading a new text file.
     rawtext = st.text_area('Enter Text Here')
     sample_col, upload_col = st.beta_columns(2)
-    sample = sample_col.selectbox('Or select a sample CSR file',  ('None','AsianPaints-19_CSR.txt','AxisBank-19_CSR.txt','tata-csr','techmahindra-csr','zee-csr'))
+    sample = sample_col.selectbox('Or select a sample CSR file',  ('None','AsianPaints-csr.txt','AxisBank-csr.txt','tata-csr','techmahindra-csr','zee-csr'))
     if sample != 'None':
         file = open(sample, "r", encoding='utf-8')
         rawtext = file.read()
